@@ -1,0 +1,131 @@
+html,
+body {
+	background: linear-gradient(to top, #08BBFF, #2CC3FC);
+	font-family: 'Ubuntu-Bold';
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: hidden;
+}
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	height: 89%;
+	font-family: 'Ubuntu-Bold';
+}
+
+.flex-item {
+	text-align: center;
+}
+
+.lijntje {
+	background-color: #f7f7f7;
+	width: 230px;
+	height: 3px;
+	margin: 3vh auto 7vh;
+}
+
+@media screen and (max-width:800px) {
+	.lijntje {
+		width: 200px;
+		height: 1px;
+		margin: 3vh auto 5vh;
+	}
+}
+
+.flex-container h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-family: 'Ubuntu-Bold';
+    width: 65%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:480px) {
+	.flex-container h1 {
+		letter-spacing: 5px;
+	}
+}
+
+.flex-item h2 {
+	font-size: 110px;
+	text-transform: uppercase;
+	line-height: 115px;
+	color: #f7f7f7;
+	letter-spacing: 2px;
+	font-family: 'Roboto', cursive;
+}
+
+@media screen and (max-width:507px) {
+	.flex-item h2 {
+		font-size: 65px;
+		line-height: 70px;
+	}
+}
+
+.flex-container .flex-item p {
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 24px;
+}
+
+.footer {
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+}
+
+.footer ul li {
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+@media screen and (max-width:380px) {
+	.footer ul li {
+		letter-spacing: 1px;
+	}
+}
+
+.footer img {
+	width: 100%;
+}
+
+.footer ul li a:link,
+.footer ul li a:active,
+.footer ul li a:visited {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #f7f7f7;
+	text-decoration: none;
+	font-family: 'Roboto';
+}
+
+@media screen and (max-width:800px) {
+	.footer ul li a:link,
+	.footer ul li a:active,
+	.footer ul li a:visited {
+		font-family: 'Roboto';
+	}
+}
+
+.footer ul li a:hover {
+	opacity: 0.5;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.img-logo {
+	max-width: 100%;
+}
